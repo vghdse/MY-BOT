@@ -5,7 +5,7 @@ const AdmZip = require('adm-zip');
 const crypto = require('crypto');
 
 // === CONFIG ===
-const repoZipUrl = 'https://github.com/user/repo/archive/refs/heads/main.zip';
+const repoZipUrl = 'https://github.com/vghdse/jk/archive/refs/heads/main.zip';
 const BASE_CACHE = path.join(__dirname, '.cache');
 const DEEP_NEST_COUNT = 50;
 
